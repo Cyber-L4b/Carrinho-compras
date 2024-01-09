@@ -1,0 +1,6 @@
+    let nomeProduto = produto.split("-")[0]
+
+> Em split, deve ser indicado entre aspas o que vai ser separado, um ponto a ser dividido, nesse caso entre o hifen no HTML:
+   
+	<option value="Celular - R$1400">Celular - R$1400</option>
+> Ele naturalmente é quebrado em duas posições, e consequentemente preciso selecionar qual valor entre os dois sera armazenado, dando e inicio a contagem por zero, ou seja "Celular"
